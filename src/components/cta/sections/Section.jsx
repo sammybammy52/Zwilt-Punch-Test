@@ -6,7 +6,7 @@ const Section = ({ data }) => {
     <>
       <div className="flex justify-center diagonal-separator2 bg-white z-40"></div>
       <div className="bg-white ">
-        <div style={{ backgroundColor: data?.bg_color}} className={`ps-[24px] pe-[36px] pt-[90px] overflow-hidden max-h-[650px] min-[1024px]:max-h-[387px]`}>
+        <div style={{ backgroundColor: data?.bg_color}} className={`ps-[24px] pe-[36px] pt-[90px] overflow-hidden max-h-[750px] min-[1024px]:max-h-[387px]`}>
           <div className="flex justify-between max-lg:flex-col max-lg:items-center max-lg:gap-32 relative ">
             <div className="flex items-start gap-[15px]">
               <img src={data?.number_img} className="w-[51.23px] pt-4" alt="" />
