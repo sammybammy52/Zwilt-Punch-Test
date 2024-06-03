@@ -7,6 +7,40 @@
   font-family: "Switzer", sans-serif;
 }
 
+.loader {
+  box-sizing: border-box;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+.rsw-editor {
+  min-height: 250px !important; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+}
+.loader:after,
+.loader:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  background: #FFBE2E;
+  animation: spin 1s linear infinite;
+  transform-origin: 0px 100%;
+}
+.loader:before {
+  transform-origin: 0 50%;
+  background: #FFBE2E;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .nav-shadow {
   box-shadow: 0px 15px 25px 0px #00000026;
 }

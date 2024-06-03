@@ -2,6 +2,7 @@ import "./App.css";
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import PrivateRoutes from "./utils/PrivateRoutes";
+import Loading from "./components/general/Loading";
 // import Loading from "./components/General/Loading";
 const Home = lazy(() => import('./pages/Home/Home'));
 
@@ -27,7 +28,7 @@ function App() {
   );
   return (
     <>
-      <Suspense fallback={<p>Loading...</p>}>
+      <Suspense fallback={<Loading/>}>
         <RouterProvider router={router} />
       </Suspense>
     </>
