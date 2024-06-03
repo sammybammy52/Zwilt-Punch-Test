@@ -12,7 +12,7 @@ const FeaturedJobs = () => {
           {categories?.map((i) => (
             <li
               className={`py-[10px]  w-full flex justify-center rounded-[15px] cursor-pointer text-[16px] max-md:text-[12px]  font-semibold leading-[23.78px] transition-all duration-500 ${
-                activeTab === i?.id ? "bg-[#C7F4C2]" : "bg-[#D2D2D2] bg-opacity-15"
+                activeTab === i?.id ? "bg-[#C7F4C2]" : "bg-transparent"
               }`}
               key={i?.id}
               onClick={() => setActiveTab(i?.id)}

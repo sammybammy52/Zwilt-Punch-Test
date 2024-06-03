@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-500 h-[80px] lg:h-[50px] flex max-lg:flex-col items-center justify-between lg:px-[70px]">
+        <div className="border-t border-gray-500 h-[80px] lg:min-h-[50px] flex max-lg:flex-col items-center justify-between lg:px-[70px]">
           <p className="font-medium leading-[31.25px] text-[16px] text-white">
             All rights reserved by Zwilt
           </p>

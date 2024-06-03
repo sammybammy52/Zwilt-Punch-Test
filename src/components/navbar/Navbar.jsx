@@ -47,7 +47,7 @@ const Navbar = () => {
 
         {/* mobile nav */}
 
-        <div className={`min-[921px]:hidden pt-14 pb-8 absolute z-50 w-full bg-white nav-shadow rounded-[15px] left-0 top-[80px] transition-transform duration-500 ${isOpen ? 'translate-x-0' : '-translate-x-[1000px]'}`}>
+        <div className={`min-[921px]:hidden h-[80vh] pt-14 pb-8 absolute z-50 w-full bg-white nav-shadow rounded-[15px] left-0 top-[80px] transition-transform duration-500 ${isOpen ? 'translate-x-0' : '-translate-x-[1000px]'}`}>
             <ul className="flex flex-col gap-10 items-center">
             {navItems?.map((i) => (
               <Link key={i?.id} to={i?.link}>
