@@ -10,12 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
     "axios": "^1.6.7",
     "encrypted-cookie": "^0.1.8",
-    "framer-motion": "^11.0.3",
     "hamburger-react": "^2.5.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
